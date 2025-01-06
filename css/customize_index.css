@@ -3,7 +3,7 @@
     background: transparent !important;
   }
   #page-header {
-    background: transparent !important;
+    background: #ffffff00 !important;
   }
   
   /* 白天模式遮罩透明 */
@@ -21,3 +21,7 @@
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
+
+#page-header:not(.not-top-img):before{
+  background-color: rgb(0 0 0 / 0%) !important;
+}
